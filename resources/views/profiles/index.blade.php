@@ -13,7 +13,7 @@
                         <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
                             @can('update', $user->profile)
                                 <a href="/profile/{{ $user->id }}/edit" style="color:rgb(112, 124, 216)!important; font-size:15px; text-decoration:none; margin-top:10px;">
-                                    <b>Edit Post</b>  </a>
+                                    <b>Edit Profile</b>  </a>
                             @endcan
                     </div>
                     @can('update', $user->profile)
